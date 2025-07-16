@@ -1,0 +1,86 @@
+.dropdown-menu {
+    --bs-dropdown-link-hover-bg: rgba(0,0,0,0.6);
+}
+
+/*
+.cabecera {
+    background-color: rgba(0,0,0,0.4) !important;
+    text-transform: uppercase;
+}
+*/
+.cabecera {
+    background-color: rgba(250,255,0,0.7) !important;
+    color: #f8f9fa;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+.hero {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(250,255,0,1)), url('../img/tennis-background.jpg');
+    background-size: cover;
+}
+
+.logo-jvf-hero {
+    transition: transform 0.3s ease-in;
+}
+
+.logo-jvf-hero:hover {
+    transform: scale(1.05);
+}
+
+.span1 {
+    color: black;
+    font-weight: bold;
+}
+
+.span2 {
+    color: black;
+    font-weight: bold;
+}
+
+.span3 {
+    color: #008a00;
+    font-weight: bold;
+}
+
+.btn-amarillo {
+    background-color: rgb(250, 255, 0);
+    transition: transform 0.2s ease-in;
+}
+
+.btn-amarillo:hover {
+    background-color: rgb(250, 255, 0);
+    transform: scale(1.15);
+}
+
+
+
+.btn-success {
+    transition: background-color 0.3s, color 0.3s;
+    transition: transform 0.2s ease-in;
+}
+
+.btn-success:hover {
+    transform: scale(1.15);
+}
+
+.sistemas {
+    transition: transform 0.3s ease-in;
+}
+
+.sistemas:hover {
+    transform: scale(1.05);
+}
+
+.btn:hover {
+    color: black;
+}
+
+.footer {
+    background-color: rgb(250, 255, 0) !important;
+    color: #f8f9fa;
+}
+
+.claim {
+    font-size: medium;
+}
