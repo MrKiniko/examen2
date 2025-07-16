@@ -34,11 +34,6 @@
 }
 
 .span2 {
-    color: black;
-    font-weight: bold;
-}
-
-.span3 {
     color: #008a00;
     font-weight: bold;
 }
@@ -53,8 +48,6 @@
     transform: scale(1.15);
 }
 
-
-
 .btn-success {
     transition: background-color 0.3s, color 0.3s;
     transition: transform 0.2s ease-in;
@@ -62,18 +55,6 @@
 
 .btn-success:hover {
     transform: scale(1.15);
-}
-
-.sistemas {
-    transition: transform 0.3s ease-in;
-}
-
-.sistemas:hover {
-    transform: scale(1.05);
-}
-
-.btn:hover {
-    color: black;
 }
 
 .footer {
